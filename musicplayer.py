@@ -49,7 +49,7 @@ class MusicPlayer:
 tracks = [Track("song1.mp3"), Track("song2.mp3"), Track("song3.mp3")]
 
 # Create the player and play the first track
-player = MP3Player(tracks)
+player = MusicPlayer(tracks)
 player.play()
 
 # Pause the player
